@@ -1,6 +1,6 @@
 const MIN_NUMBER = 1;
 const MAX_NUMBER = 10;
-const randomNumBetween1and10 = Math.floor((Math.random() * MAX_NUMBER_OF_GAME - MIN_NUMBER_OF_GAME + 1) + MIN_NUMBER_OF_GAME);
+const randomNumBetween1and10 = Math.floor((Math.random() * MAX_NUMBER - MIN_NUMBER + 1) + MIN_NUMBER);
 const userGuess = parseInt(prompt("Adivina el número! Dame un número entre el 1 y el 10."));
 let result = `Lo siento, no lo has adivinado. El número era el ${randomNumBetween1and10}.`;
 const areEqualNumbers = (randomNumBetween1and10==userGuess);
